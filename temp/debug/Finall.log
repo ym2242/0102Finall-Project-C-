@@ -1,0 +1,18 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(372,5): warning MSB8004: Intermediate 目錄結尾不是結尾斜線。這個建置執行個體將會加入此斜線，因為這樣才能正確評估 Intermediate 目錄。
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(373,5): warning MSB8004: Output 目錄結尾不是結尾斜線。這個建置執行個體將會加入此斜線，因為這樣才能正確評估 Output 目錄。
+  main.c
+c:\users\廖鎮毅\desktop\0102finall project\source\main.c(45): warning C4473: 'scanf_s' : 傳遞給格式字串的引數不足
+  c:\users\廖鎮毅\desktop\0102finall project\source\main.c(45): note: 預留位置及其參數需要 2 個 variadic 引數，但卻提供了 1 個
+  c:\users\廖鎮毅\desktop\0102finall project\source\main.c(45): note: 缺少 variadic 引數 2 (其為格式字串 '%s' 所需)
+  c:\users\廖鎮毅\desktop\0102finall project\source\main.c(45): note: 此引數可用為緩衝區大小
+c:\users\廖鎮毅\desktop\0102finall project\source\main.c(118): warning C4473: 'scanf_s' : 傳遞給格式字串的引數不足
+  c:\users\廖鎮毅\desktop\0102finall project\source\main.c(118): note: 預留位置及其參數需要 2 個 variadic 引數，但卻提供了 1 個
+  c:\users\廖鎮毅\desktop\0102finall project\source\main.c(118): note: 缺少 variadic 引數 2 (其為格式字串 '%s' 所需)
+  c:\users\廖鎮毅\desktop\0102finall project\source\main.c(118): note: 此引數可用為緩衝區大小
+c:\users\廖鎮毅\desktop\0102finall project\source\main.c(153): warning C4474: 'printf': 傳遞給格式字串的引數太多
+  c:\users\廖鎮毅\desktop\0102finall project\source\main.c(153): note: 預留位置及其參數需要 0 個 variadic 引數，但卻提供了 1 個
+c:\users\廖鎮毅\desktop\0102finall project\source\main.c(225): warning C4013: 'time' 未定義; 假設 extern 傳回整數
+c:\users\廖鎮毅\desktop\0102finall project\source\main.c(258): warning C4716: 'AI': 必須傳回值
+c:\users\廖鎮毅\desktop\0102finall project\source\main.c(275): warning C4715: 'AI_check': 不是所有控制路徑都傳回值
+  Finall.vcxproj -> C:\Users\廖鎮毅\Desktop\0102Finall project\Finall\Finall\..\..\temp\debug\Finall.exe
+  Finall.vcxproj -> ..\..\temp\debug\Finall.pdb (Partial PDB)
