@@ -167,3 +167,53 @@ int main()
 	}
 }
 
+void show_position()
+{
+	int i, j;
+	system("CLS"); /* 清除畫面 */
+
+	printf("   A    B    C\n");
+	for (i = 0; i< 3; i++)
+	{
+		printf(" \n\n%d", i + 1);
+		for (j = 0; j < 3; j++)
+		{
+			if (a[i][j] == 1)      /* player 0 因為 player+1 的關係 */
+				printf("  O  ");
+			else if (a[i][j] == 2) /* player 1 */
+				printf("  X  ");
+			else
+				printf("  ＿ ");
+		}
+		printf("\n");
+	}
+}
+
+int check()
+{
+	int i, j;
+	for (i = 0; i< 3; i++){
+
+		if ((a[i][0] == a[i][1]) && (a[i][0] == a[i][2])){     /* 橫線 */
+			if (a[i][0] > 0) return a[i][0];
+		}
+
+		for (j = 0; j< 3; j++){
+
+			if ((a[0][j] == a[1][j]) && (a[0][j] == a[2][j])){ /* 直線 */
+				if (a[0][j] > 0) return a[0][j];
+			}
+
+			if ((a[0][0] == a[1][1]) && (a[0][0] == a[2][2])){ /* 斜線 */
+				if (a[0][0] > 0) return a[0][0];
+			}
+
+			if ((a[0][2] == a[1][1]) && (a[0][2] == a[2][0])){ /* 斜線 */
+				if (a[0][2] > 0) return a[0][2];
+
+			}
+		}
+	}
+	return(0);
+}
+
